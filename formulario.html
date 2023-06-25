@@ -14,10 +14,13 @@
 
   <form class="formulario">
     Nombre <input type="text" name="name" id="name">
-    <br />
+    <!--Los br no llevan / al terminar-->
+    <br>
     Edad <input type="number" name="age" id="age">
-    <br />
-
+    
+    <!--Los br no llevan / al terminar-->
+    <br>
+  
     Nacionalidad
     <select name="nationality" id="nationality">
       <option value="ar">Argentina</option>
@@ -25,16 +28,19 @@
       <option value="per">Peruana</option>
       <option value="vnzl">Venezolana</option>
     </select>
-    <br />
-    <input type="submit">
-  </form>
+    <!--Los br no llevan / al terminar-->
+    <br>
+    <!--Agregarle un id y el value-->
+    <input type="submit" value="Submit" id="enviar">
+  </form> <!--Fin del Form-->
 
-  <div>
+    <!--Se le agrego un div y pasarle un id, ya que se requeire en el JS-->
+  <div id="lista-de-invitados">
     <h2>Lista de invitados</h2>
-
+      <!--En este espacio se van a poner los invitados-->
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="formulario.js"></script>
 </body>
 
 </html>

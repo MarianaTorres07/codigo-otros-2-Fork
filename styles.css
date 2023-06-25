@@ -1,4 +1,4 @@
-body {
+body { /*Esto le afecta todo al body */
   background: #f0c27b; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f0c27b, #4b1248); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,6 +17,7 @@ body {
   border-radius: 5px;
 }
 
+/*se le agrega un color rojo, cuando el usuario ingresa un valor erroneo*/
 .error {
   background-color: red;
 }
